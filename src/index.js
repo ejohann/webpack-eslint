@@ -6,7 +6,6 @@ import addImage from './add-image';
 import 'bootstrap';
 import './index.scss';
 
-
 library.add(faSpinner);
 dom.watch();
 
@@ -16,7 +15,7 @@ const helloWorldButton = new HelloWorldButton();
 heading.render();
 helloWorldButton.render();
 
-//addImage();
+addImage();
 
 if(process.env.NODE_ENV === 'production'){
     console.log('production mode');
